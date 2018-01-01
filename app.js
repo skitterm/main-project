@@ -7,4 +7,11 @@ if (!sameAreaCode) {
   areaCode = '(123) ';
 }
 
-number.innerHTML = `${areaCode}456-7890`;
+const sameCountry = false;
+let countryCode = '';
+
+if (!sameCountry) {
+  countryCode = '(1)';
+}
+
+number.innerHTML = `${countryCode}${areaCode}456-7890`;
