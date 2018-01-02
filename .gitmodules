@@ -1,6 +1,3 @@
-[submodule "side-stuff"]
-	path = side-stuff
-	url = git@github.com:skitterm/side-project.git
 [submodule "utility-stuff"]
 	path = utility-stuff
 	url = git@github.com:skitterm/utility-project.git
